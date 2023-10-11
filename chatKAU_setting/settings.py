@@ -28,7 +28,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'corsheaders',
-    'chatKAU_main'
+    'chatKAU_main',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
