@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class SchoolInfo(models.Model):
+    keyword = models.CharField(max_length=200, unique=True)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.keyword
