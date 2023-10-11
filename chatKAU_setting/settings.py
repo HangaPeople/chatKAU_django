@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'corsheaders',
     'chatKAU_main',
-    'rest_framework'
+    'rest_framework',
+    'drf_yasg' 
 ]
 
 MIDDLEWARE = [
