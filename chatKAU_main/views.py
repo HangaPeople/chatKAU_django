@@ -3,24 +3,14 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
-from django.views.generic import TemplateView
 import json
 import os
 import openai
-import sys
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.vectorstores import Chroma
-from langchain.embeddings.openai import OpenAIEmbeddings
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager 
-import time
-import csv
-from selenium.webdriver.common.by import By 
-from selenium.webdriver.common.keys import Keys
+from langchain.embeddings.openai import OpenAIEmbeddings 
 
 vectordb = None
 
