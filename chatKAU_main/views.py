@@ -11,6 +11,9 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings 
+from rest_framework.decorators import api_view
+
+from chatKAU_main.models import SchoolInfo
 
 vectordb = None
 
@@ -30,7 +33,9 @@ def initialize_vectordb():
     splits = text_splitter.split_documents(documents)
     
     persist_directory = 'docs/chroma/'
-    embedding = OpenAIEmbeddings()
+    embedding = OpenAIEmbeddings(
+        model= "text-embedding-ada-002"
+    )
     
     vectordb = Chroma.from_documents(
         documents=splits,
@@ -41,7 +46,9 @@ def initialize_vectordb():
 if vectordb is None:
     initialize_vectordb()
 
+
 @csrf_exempt
+@api_view(['POST'])  
 def langchain(request):
     global vectordb
     
@@ -56,10 +63,21 @@ def langchain(request):
         data = json.loads(request.body.decode("utf-8"))
         question = data["messages"][0]["content"]
         
-        docs = vectordb.similarity_search(question, k=3)
-        response_content = docs[0].page_content
-
-        response = openai.ChatCompletion.create(
+        queryset = SchoolInfo.objects.filter(keyword=question)
+        
+        if queryset.exists():
+            gpt_response = queryset.first().content
+            response_content = 'DB'
+            metadata = 'DB'
+        else:
+            docs = vectordb.similarity_search(question, k=3)
+            response_content = docs[0].page_content
+            
+            print(docs)
+            
+            metadata = docs[0].metadata
+            
+            response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{
                 "role": "user",
@@ -69,15 +87,16 @@ def langchain(request):
                     f"기반 정보: {response_content} / "
                     f"내 질문: {question}"
                 )
-            }]
-        )
+            }])
+            gpt_response = response['choices'][0]['message']['content']
         
-        gpt_response = response['choices'][0]['message']['content']
-
+        
         return JsonResponse({
             "choices": [{
                 "message": {
-                    "content": gpt_response
+                    "content": gpt_response,
+                    "content_origin": response_content,
+                    "metadata": metadata
                 }
             }]
         })

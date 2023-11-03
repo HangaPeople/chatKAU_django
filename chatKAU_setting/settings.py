@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'chatKAU_main',
     'rest_framework',
-    'drf_yasg' 
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [

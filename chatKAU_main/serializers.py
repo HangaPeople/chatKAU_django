@@ -4,4 +4,4 @@ from .models import SchoolInfo
 class SchoolInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SchoolInfo
-        fields = ['keyword', 'content']
+        fields = ['keyword', 'content', 'origin']
