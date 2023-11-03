@@ -1,7 +1,17 @@
 from rest_framework import serializers
 from .models import SchoolInfo
+from .models import Student
 
 class SchoolInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SchoolInfo
         fields = ['keyword', 'content', 'origin']
+        
+class StudentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Student
+        fields = ['year', 'name', 'major', 'majorScore', 'generalScore']
+
+class StudentInfoRequestSerializer(serializers.Serializer):
+    studentNumber = serializers.CharField(max_length=10)
+    password = serializers.CharField(max_length=100)
