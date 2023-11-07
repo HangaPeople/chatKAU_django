@@ -10,7 +10,7 @@ class SchoolInfoSerializer(serializers.ModelSerializer):
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
-        fields = ['year', 'name', 'major', 'majorScore', 'generalScore']
+        fields = ['studentNumber', 'password', 'name', 'major', 'majorScore', 'generalScore', 'totalScore']
 
 class StudentInfoRequestSerializer(serializers.Serializer):
     studentNumber = serializers.CharField(max_length=10)

@@ -20,31 +20,31 @@ vectordb = None
 os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def initialize_vectordb():
-    global vectordb
+# def initialize_vectordb():
+#     global vectordb
     
-    loader = CSVLoader("./test3_filter.csv")
-    documents = loader.load()
+#     loader = CSVLoader("./test3_filter.csv")
+#     documents = loader.load()
     
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 1500,
-        chunk_overlap = 150
-    )
-    splits = text_splitter.split_documents(documents)
+#     text_splitter = RecursiveCharacterTextSplitter(
+#         chunk_size = 1500,
+#         chunk_overlap = 150
+#     )
+#     splits = text_splitter.split_documents(documents)
     
-    persist_directory = 'docs/chroma/'
-    embedding = OpenAIEmbeddings(
-        model= "text-embedding-ada-002"
-    )
+#     persist_directory = 'docs/chroma/'
+#     embedding = OpenAIEmbeddings(
+#         model= "text-embedding-ada-002"
+#     )
     
-    vectordb = Chroma.from_documents(
-        documents=splits,
-        embedding=embedding,
-        persist_directory=persist_directory
-    )
+#     vectordb = Chroma.from_documents(
+#         documents=splits,
+#         embedding=embedding,
+#         persist_directory=persist_directory
+#     )
 
-if vectordb is None:
-    initialize_vectordb()
+# if vectordb is None:
+#     initialize_vectordb()
 
 
 @csrf_exempt

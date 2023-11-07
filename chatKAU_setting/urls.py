@@ -7,13 +7,15 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 import chatKAU_main.views as views
 from chatKAU_main.shortcutMenu import SchoolInfoByKeyword
+from chatKAU_main.api_students import StudentLogin
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('langchain', views.langchain, name='langchain'),
     path('', views.index, name='index'),
     
-    path('api/shortcut/<str:keyword>', SchoolInfoByKeyword.as_view(), name='SchoolInfoByKeyword')
+    path('api/shortcut/<str:keyword>', SchoolInfoByKeyword.as_view(), name='SchoolInfoByKeyword'),
+    path('user/login', StudentLogin.as_view(), name='student-login'),
 ]
 
 router = routers.DefaultRouter()
