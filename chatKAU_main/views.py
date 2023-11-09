@@ -36,7 +36,7 @@ def initialize_vectordb():
     if collection is not None:
         return
     
-    df = pd.read_csv("./kau_data_eng.csv")
+    df = pd.read_csv("./kau_data_eng_major.csv")
 
     client = chromadb.PersistentClient(path="docs/chroma/")
     
@@ -60,7 +60,7 @@ def initialize_vectordb():
         }
         
         doc_meta.append(meta)
-        ids.append(item['CONTENT'])
+        ids.append(item['KOREAN'])
         documents.append(item['ENGLISH'])
         
     collection.add(
@@ -68,7 +68,20 @@ def initialize_vectordb():
         metadatas=doc_meta,
         ids=ids
     )
+
+
+@csrf_exempt
+@api_view(['POST'])
+def saveChatHistory(request, isGood):
+    data = json.loads(request.body)
+    question = data.get("question", "")
+    answer = data.get("answer", "")
     
+    if isGood == 'true' and not SchoolInfo.objects.filter(keyword=question).exists():
+        SchoolInfo.objects.create(keyword=question, content=answer, origin="user")
+    
+    return JsonResponse({"status": "success"})
+         
 
 @csrf_exempt
 @api_view(['POST'])  
@@ -87,6 +100,7 @@ def langchain(request):
         gpt_response = queryset.first().content
         content_origin = 'DB'
         metadata = 'DB'
+        total_token = 0
     
     else:
         result = collection.query(
@@ -99,6 +113,7 @@ def langchain(request):
         
         response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
+        temperature=0.0,
         messages=[
             {"role": "system", "content": 
                 """너는 항공대학교에 대한 정보를 간략하고 꼼꼼하게 설명해주는 챗봇이야. 
@@ -107,13 +122,15 @@ def langchain(request):
             {"role": "user", "content": question}
         ])
         gpt_response = response['choices'][0]['message']['content']
+        total_token = response['usage']['total_tokens']
     
     return JsonResponse({
         "choices": [{
             "message": {
                 "content": gpt_response,
                 "content_origin": content_origin,
-                "metadata": metadata
+                "metadata": metadata,
+                "price": str(round(total_token / 1000 * 2.62, 3)) + "원"
             }
         }]
     })

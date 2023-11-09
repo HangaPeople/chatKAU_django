@@ -15,6 +15,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     
     path('api/shortcut/<str:keyword>', SchoolInfoByKeyword.as_view(), name='SchoolInfoByKeyword'),
+    path('response/<path:isGood>', views.saveChatHistory, name='saveChatHistory'),
     path('user/login', StudentLogin.as_view(), name='student-login'),
 ]
 
