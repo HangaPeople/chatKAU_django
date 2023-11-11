@@ -8,6 +8,7 @@ from drf_yasg import openapi
 import chatKAU_main.views as views
 from chatKAU_main.shortcutMenu import SchoolInfoByKeyword
 from chatKAU_main.api_students import StudentLogin
+from chatKAU_main.crawling import crawling_menu
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -17,6 +18,7 @@ urlpatterns = [
     path('api/shortcut/<str:keyword>', SchoolInfoByKeyword.as_view(), name='SchoolInfoByKeyword'),
     path('response/<path:isGood>', views.saveChatHistory, name='saveChatHistory'),
     path('user/login', StudentLogin.as_view(), name='student-login'),
+    path('crawling/menu', crawling_menu, name='crawlingMenu'),
 ]
 
 router = routers.DefaultRouter()

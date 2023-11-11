@@ -10,8 +10,14 @@ from django.views.decorators.http import require_POST
 import json
 import os
 import openai
+import sys
+import urllib.request
+from datetime import datetime
 from rest_framework.decorators import api_view
 from chatKAU_main.models import SchoolInfo
+
+papago_client_id = "CggFiq0B0YSdoyCO0P3q" 
+papago_client_secret = "f4DwnSEbAX" 
 
 os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -21,14 +27,33 @@ ids = []
 documents = []
 doc_meta = []
 
+date = datetime.now().strftime("%Y-%m-%d")
+day_of_week = datetime.now().strftime("%A")
+
 def index(request):
     return render(request, 'home.html')
 
 
 def translate_to_english(text):
-    translator = Translator()
-    translated = translator.translate(text, src='auto', dest='en')
-    return translated.text
+    data = "source=ko&target=en&text=" + text
+    url = "https://openapi.naver.com/v1/papago/n2mt"
+    
+    request = urllib.request.Request(url)
+    request.add_header("X-Naver-Client-Id", papago_client_id)
+    request.add_header("X-Naver-Client-Secret", papago_client_secret)
+    
+    response = urllib.request.urlopen(request, data=data.encode("utf-8"))
+    rescode = response.getcode()
+    
+    if rescode==200:
+        response_body = response.read()
+        response_body_decoded = response_body.decode('utf-8') 
+        response_data = json.loads(response_body_decoded)
+
+        translated_text = response_data['message']['result']['translatedText']
+        return translated_text
+    else:
+        print("Error Code:" + rescode)
 
 
 def initialize_vectordb():
@@ -118,9 +143,13 @@ def langchain(request):
             {"role": "system", "content": 
                 """너는 항공대학교에 대한 정보를 간략하고 꼼꼼하게 설명해주는 챗봇이야. 
                 기반정보를 이용해서만 대답해. 기반정보에 없는 내용은 답변에 포함하지마."""},
+            {"role": "system", "content": "내가 준 날짜를 기반으로 대답해"},
+            {"role": "assistant", "content": "학식은 주말에도 운영한다."},
+            {"role": "assistant", "content": f"오늘 날짜와 요일 : {date}, {day_of_week}"},
             {"role": "assistant", "content": f"기반정보: {content_origin}"},
             {"role": "user", "content": question}
         ])
+        
         gpt_response = response['choices'][0]['message']['content']
         total_token = response['usage']['total_tokens']
     
