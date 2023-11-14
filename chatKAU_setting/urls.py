@@ -19,6 +19,7 @@ urlpatterns = [
     path('response/<path:isGood>', views.saveChatHistory, name='saveChatHistory'),
     path('user/login', StudentLogin.as_view(), name='student-login'),
     path('crawling/menu', crawling_menu, name='crawlingMenu'),
+    path('saved', views.responseSavedChat, name='saved'),
 ]
 
 router = routers.DefaultRouter()

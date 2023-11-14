@@ -1,5 +1,6 @@
 import pandas as pd
 import chromadb
+from django.http import StreamingHttpResponse
 from googletrans import Translator
 from chromadb.utils import embedding_functions
 from django.shortcuts import render
@@ -109,57 +110,89 @@ def saveChatHistory(request, isGood):
          
 
 @csrf_exempt
-@api_view(['POST'])  
 def langchain(request):
-    data = json.loads(request.body.decode("utf-8"))
-    question = data["messages"][0]["content"]
-    
+    question = request.GET.get('question', '')
     english_question = translate_to_english(question)
-    print(english_question)
-    
+        
     initialize_vectordb()
     
-    queryset = SchoolInfo.objects.filter(keyword=question)
+    result = collection.query(
+        query_texts=english_question,
+        n_results=2
+    )
+
+    content_origin = result['ids'][0][0]
+    metadata = result['metadatas'][0][0]
+
+    def event_stream():        
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            temperature=0.0,
+            messages=[
+                {"role": "system", "content": 
+                    """너는 항공대학교에 대한 정보를 간략하고 꼼꼼하게 설명해주는 챗봇이야. 
+                    기반정보를 이용해서만 대답해. 기반정보에 없는 내용은 답변에 포함하지마."""},
+                {"role": "system", "content": "내가 준 날짜를 기반으로 대답해"},
+                {"role": "assistant", "content": "학식은 주말에도 운영한다."},
+                {"role": "assistant", "content": f"오늘 날짜와 요일 : {date}, {day_of_week}"},
+                {"role": "assistant", "content": f"기반정보: {content_origin}"},
+                {"role": "user", "content": question}
+            ],
+            stream=True
+        )
+        
+        for line in response:
+            chunk = line['choices'][0].get('delta', {}).get('content', '')
+            if chunk:
+                data_to_send = {
+                    "choices": [{
+                        "message": {
+                            "content": chunk,
+                            "content_origin": content_origin,
+                            "metadata": metadata
+                        }
+                    }]
+                }
+                yield f"data: {json.dumps(data_to_send)}\n\n"
+            
+    return StreamingHttpResponse(event_stream(), content_type="text/event-stream")
+    
+    
+@csrf_exempt
+@api_view(['POST'])
+def responseSavedChat(request):
+    data = json.loads(request.body)
+    message = data.get("messages", [])
+    keyword = message[0].get("content", "")
+    
+    queryset = SchoolInfo.objects.filter(keyword=keyword)
+    
+    content_origin = 'DB'
+    metadata = 'DB'
     
     if queryset.exists():
         gpt_response = queryset.first().content
-        content_origin = 'DB'
-        metadata = 'DB'
-        total_token = 0
+        
+        return JsonResponse({
+            "choices": [{
+                "message": {
+                    "content": gpt_response,
+                    "content_origin": content_origin,
+                    "metadata": metadata
+                }
+            }]
+        })
     
     else:
-        result = collection.query(
-            query_texts=english_question,
-            n_results=2
-        )
+        return JsonResponse({
+            "choices": [{
+                "message": {
+                    "content": '등록되어 있지 않은 정보입니다.',
+                    "content_origin": content_origin,
+                    "metadata": metadata
+                }
+            }]
+        })
         
-        content_origin = result['ids'][0][0]      
-        metadata = result['metadatas'][0][0]
-        
-        response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        temperature=0.0,
-        messages=[
-            {"role": "system", "content": 
-                """너는 항공대학교에 대한 정보를 간략하고 꼼꼼하게 설명해주는 챗봇이야. 
-                기반정보를 이용해서만 대답해. 기반정보에 없는 내용은 답변에 포함하지마."""},
-            {"role": "system", "content": "내가 준 날짜를 기반으로 대답해"},
-            {"role": "assistant", "content": "학식은 주말에도 운영한다."},
-            {"role": "assistant", "content": f"오늘 날짜와 요일 : {date}, {day_of_week}"},
-            {"role": "assistant", "content": f"기반정보: {content_origin}"},
-            {"role": "user", "content": question}
-        ])
-        
-        gpt_response = response['choices'][0]['message']['content']
-        total_token = response['usage']['total_tokens']
     
-    return JsonResponse({
-        "choices": [{
-            "message": {
-                "content": gpt_response,
-                "content_origin": content_origin,
-                "metadata": metadata,
-                "price": str(round(total_token / 1000 * 2.62, 3)) + "원"
-            }
-        }]
-    })
+        
