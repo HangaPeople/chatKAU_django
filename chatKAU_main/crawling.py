@@ -24,11 +24,15 @@ def crawling_menu(request):
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
 
-    driver.get("http://www.kau.ac.kr/web/pages/gc13087b.do?bbsAuth=30&siteFlag=www&bbsFlag=View&bbsId=0113&nttId=51643&currentPageNo=1&mnuId=gc13087b&returnUrl=")
+    driver.get("https://www.kau.ac.kr/web/pages/gc13087b.do")
+    
+    table = driver.find_element(By.XPATH, '//*[@id="container"]/div/div[2]/div[2]/table')
+    fourth_row = table.find_element(By.XPATH, './tbody/tr[4]//a')
+    fourth_row.click()
+    
     driver.implicitly_wait(3)
     
-    
-    menu_table = driver.find_element(By.XPATH, '//*[@id="divViewConts"]/table/tbody')
+    menu_table = driver.find_element(By.XPATH, '//*[@id="divViewConts"]/table/tbody')    
     rows = menu_table.find_elements(By.TAG_NAME, 'tr')
     
     week = ['월요일', '화요일', '수요일', '목요일', '금요일', '토요일', '일요일']
@@ -65,17 +69,15 @@ def crawling_menu(request):
 
     UpdateSchoolMenu(result_str)
 
-    row_index = 41
+    row_index = 38
     column_names = ['INDEX', 'KOREAN', 'URL', 'ENGLISH']
     new_data = [row_index, result_str, 'https://www.kau.ac.kr/web/pages/gc13087b.do', 'meal menu']
     
-    for i in range(len(column_names)):
-        df.at[row_index, column_names[i]] = new_data[i]
-
+    df.loc[df['INDEX'] == row_index, column_names] = new_data
     df.to_csv(file_path, index=False)
-    
+
     driver.quit()
-    
+
     return JsonResponse({"response": "크롤링 성공"})
 
 
@@ -84,4 +86,5 @@ def UpdateSchoolMenu(new_data):
     
     old_data.content = new_data
     old_data.save()
+    
     

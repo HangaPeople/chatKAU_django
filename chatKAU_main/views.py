@@ -98,12 +98,13 @@ def initialize_vectordb():
 
 @csrf_exempt
 @api_view(['POST'])
-def saveChatHistory(request, isGood):
+def saveChatHistory(request):
     data = json.loads(request.body)
     question = data.get("question", "")
     answer = data.get("answer", "")
+    review = data.get("review", "")
     
-    if isGood == 'true' and not SchoolInfo.objects.filter(keyword=question).exists():
+    if review and not SchoolInfo.objects.filter(keyword=question).exists():
         SchoolInfo.objects.create(keyword=question, content=answer, origin="user")
     
     return JsonResponse({"status": "success"})
@@ -112,19 +113,34 @@ def saveChatHistory(request, isGood):
 @csrf_exempt
 def langchain(request):
     question = request.GET.get('question', '')
+
+    def stream_json_response(data):
+        yield f"data: {json.dumps(data)}\n\n"
+
+    def create_response_data(content, content_origin, metadata):
+        return {
+            "choices": [{
+                "message": {
+                    "content": content,
+                    "content_origin": content_origin,
+                    "metadata": metadata
+                }
+            }]
+        }
+
+    if SchoolInfo.objects.filter(keyword=question).exists():
+        dbResponse = SchoolInfo.objects.filter(keyword=question).first().content
+        data = create_response_data(dbResponse, 'DB', 'DB')
+        return StreamingHttpResponse(stream_json_response(data), content_type="text/event-stream")
+
     english_question = translate_to_english(question)
-        
     initialize_vectordb()
     
-    result = collection.query(
-        query_texts=english_question,
-        n_results=2
-    )
-
+    result = collection.query(query_texts=english_question, n_results=2)
     content_origin = result['ids'][0][0]
     metadata = result['metadatas'][0][0]
 
-    def event_stream():        
+    def event_stream():
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             temperature=0.0,
@@ -144,17 +160,9 @@ def langchain(request):
         for line in response:
             chunk = line['choices'][0].get('delta', {}).get('content', '')
             if chunk:
-                data_to_send = {
-                    "choices": [{
-                        "message": {
-                            "content": chunk,
-                            "content_origin": content_origin,
-                            "metadata": metadata
-                        }
-                    }]
-                }
+                data_to_send = create_response_data(chunk, content_origin, metadata)
                 yield f"data: {json.dumps(data_to_send)}\n\n"
-            
+
     return StreamingHttpResponse(event_stream(), content_type="text/event-stream")
     
     
