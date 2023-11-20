@@ -104,6 +104,8 @@ def saveChatHistory(request):
     answer = data.get("answer", "")
     review = data.get("review", "")
     
+    question = question.replace(" ", "")
+    
     if review and not SchoolInfo.objects.filter(keyword=question).exists():
         SchoolInfo.objects.create(keyword=question, content=answer, origin="user")
     
@@ -113,6 +115,7 @@ def saveChatHistory(request):
 @csrf_exempt
 def langchain(request):
     question = request.GET.get('question', '')
+    search_question = question.replace(" ", "")
 
     def stream_json_response(data):
         yield f"data: {json.dumps(data)}\n\n"
@@ -128,8 +131,8 @@ def langchain(request):
             }]
         }
 
-    if SchoolInfo.objects.filter(keyword=question).exists():
-        dbResponse = SchoolInfo.objects.filter(keyword=question).first().content
+    if SchoolInfo.objects.filter(keyword=search_question).exists():
+        dbResponse = SchoolInfo.objects.filter(keyword=search_question).first().content
         data = create_response_data(dbResponse, 'DB', 'DB')
         return StreamingHttpResponse(stream_json_response(data), content_type="text/event-stream")
 
@@ -142,7 +145,7 @@ def langchain(request):
 
     def event_stream():
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-1106",
             temperature=0.0,
             messages=[
                 {"role": "system", "content": 
@@ -152,6 +155,7 @@ def langchain(request):
                 {"role": "assistant", "content": "학식은 주말에도 운영한다."},
                 {"role": "assistant", "content": f"오늘 날짜와 요일 : {date}, {day_of_week}"},
                 {"role": "assistant", "content": f"기반정보: {content_origin}"},
+                
                 {"role": "user", "content": question}
             ],
             stream=True
