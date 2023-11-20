@@ -145,7 +145,7 @@ def langchain(request):
 
     def event_stream():
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo-1106",
+            model="gpt-3.5-turbo",
             temperature=0.0,
             messages=[
                 {"role": "system", "content": 
