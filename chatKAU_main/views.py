@@ -28,9 +28,6 @@ ids = []
 documents = []
 doc_meta = []
 
-date = datetime.now().strftime("%Y-%m-%d")
-day_of_week = datetime.now().strftime("%A")
-
 def index(request):
     return render(request, 'home.html')
 
@@ -116,6 +113,9 @@ def saveChatHistory(request):
 def langchain(request):
     question = request.GET.get('question', '')
     search_question = question.replace(" ", "")
+    
+    date = datetime.now().strftime("%Y-%m-%d")
+    day_of_week = datetime.now().strftime("%A")
 
     def stream_json_response(data):
         yield f"data: {json.dumps(data)}\n\n"
