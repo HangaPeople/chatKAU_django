@@ -8,6 +8,7 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
+import csv
 import json
 import os
 import openai
@@ -206,5 +207,45 @@ def responseSavedChat(request):
             }]
         })
         
+
+@csrf_exempt
+@api_view(['POST'])
+def benchmarking(request):
+    df = pd.read_csv("./question_list_english.csv")
     
+    question = []
+    url = []
+    
+    correct = 0
+    wrong = 0
+    
+    initialize_vectordb()
+    
+    for i in range(len(df)):
+        item = df.iloc[i]
         
+        question.append(item['QUESTION'])
+        url.append(item['URL'])
+    
+    data = []
+    
+    for i in range(len(df)):
+        result = collection.query(query_texts=question[i], n_results=1)
+        metadata = result['metadatas'][0][0]
+        
+        row = [question[i], url[i], metadata['source']]
+        data.append(row)
+        
+        if url[i] == metadata['source']:
+            correct += 1
+        else:
+            wrong += 1
+
+    with open('result.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['질문', '실제원본정보', '검색한정보'])
+        writer.writerows(data)
+            
+    return JsonResponse({"correct": correct, "wrong": wrong})
+    
+    
