@@ -60,7 +60,7 @@ def initialize_vectordb():
     if collection is not None:
         return
     
-    df = pd.read_csv("./kau_data_eng_major.csv")
+    df = pd.read_csv("./항공대정보최종.csv")
 
     client = chromadb.PersistentClient(path="docs/chroma/")
     
@@ -146,7 +146,7 @@ def langchain(request):
 
     def event_stream():
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-1106",
             temperature=0.0,
             messages=[
                 {"role": "system", "content": 
@@ -211,7 +211,7 @@ def responseSavedChat(request):
 @csrf_exempt
 @api_view(['POST'])
 def benchmarking(request):
-    df = pd.read_csv("./question_list_english.csv")
+    df = pd.read_csv("./영어질문리스트.csv")
     
     question = []
     url = []
@@ -241,7 +241,7 @@ def benchmarking(request):
         else:
             wrong += 1
 
-    with open('result.csv', 'w', newline='', encoding='utf-8') as file:
+    with open('resultEnglish.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['질문', '실제원본정보', '검색한정보'])
         writer.writerows(data)

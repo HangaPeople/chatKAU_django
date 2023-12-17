@@ -2808,46 +2808,610 @@ Aviation MRO program is applied for promotion of 2nd grade, and separate regulat
 (Yes, in order of grades)"
 38.0,"항공대 일주일 식단표
 
-● 월요일(12.11) 조식 - 3000원 베이글*사과잼 그린샐러드*드레싱 2종시리얼/흰우유 블루베리맛젤리 백미밥 어묵국 깍두기
- 중식(한식) - 6000원 돼지고기고추장찌개 (돼지:국내산) 백미밥 새우까스*타르소스 우엉조림 콩나물무침 포기김치
- 중식(일품) - 5000원 치즈부대덮밥 (돼지:외국산,국산 섞음) 무채국 설탕핫도그 (돼지,닭:국내산) 단무지
- 중식(면) - 4500원 김치잔치국수 단무지
-석식 - 5000원 베이컨볶음밥 (베이컨[돼지]:외국산) 감잣국 멘치까스 (돼지:국내산) 단무지
-
-● 화요일(12.12) 조식 - 3000원 올리브치아바타모닝빵 크림스프 어니언링*케찹 삶은계란*소금 그린샐러드*드레싱 2종시리얼/흰우유 바나나 08:10 ∼ 10:00
- 중식(한식) - 6000원 커리찜닭*갈릭난 (닭:브라질산) 백미밥 봄동된장국 집게맛살튀김 건파래볶음 깍두기 11:00 ∼ 14:00
- 중식(일품) - 5000원 돼지고기불고기덮밥 (돼지:국내산) 김칫국 치킨볼튀김 (닭:외국산) 깍두기 17:00 ∼ 19:00
- 중식(면) - 4500원 짬뽕 (돼지:국내산) 단무지
-석식 - 5000원 마제덮밥 (돼지:국내산) 유부장국 고구마고로케 단무지
-
-● 수요일(12.13) 조식 - 3000원 딸기필링도넛 야채스프 햄스크램블 (닭,돼지:국산) 그린샐러드*드레싱 2종시리얼/흰우유 단호박샐러드 08:10 ∼ 10:00
- 중식(한식) - 6000원 고추참치순두부찌개 (참치[가다랑어]:원양산) 백미밥 동그랑땡전 (돼지:외국산) 두반장가지볶음 세발나물된장무침 포기김치 11:00 ∼ 14:00
- 중식(일품) - 5000원 소고기와사비마요덮밥 (소:호주산) 팽이장국 순대강정 단무지 17:00 ∼ 19:00
- 중식(면) - 4500원 육개장칼국수 (소:호주산) 단무지
-석식 - 5000원 닭갈비덮밥 (닭:브라질산) 미역국 단호박튀김 깍두기
-
-● 목요일(12.14) 조식 - 3000원 땅콩크림소보로빵 옥수수스프 스마일감자*케찹 삶은계란*소금 그린샐러드*드레싱 2종시리얼/흰우유 사과주스 08:10 ∼ 10:00
- 중식(한식) - 6000원 고추장제육볶음 (돼지:국내산) 백미밥 북엇국 볼어묵튀김 상추쌈*쌈장 깍두기 11:00 ∼ 14:00
- 중식(일품) - 5000원 낡치알김치볶음밥 (닭,돼지:국산) 맑은호박국 소떡소떡 (닭,돼지:국내산) 단무지 17:00 ∼ 19:00
- 중식(면) - 4500원 어묵우동 단무지
-석식 - 5000원 돼지고기폭찹덮밥 (돼지:국내산) 두부장국 크림떡볶이 피클
-
-● 금요일(12.15) 조식 - 3000원 단호박곡물도넛 양송이스프 베이컨브로컬리볶음 (베이컨[돼지]:외국산) 삶은계란*소금 그린샐러드*드레싱 2종시리얼/흰우유 떠먹는요거트 08:10 ∼ 10:00
- 중식(한식) - 6000원 나물비빔밥 청국장찌개 바싹불고기 (돼지:외국산) 동부묵무침 포기김치 11:00 ∼ 14:00
- 중식(일품) - 5000원 지코바치밥 (닭:브라질산) 우동국물 과일푸딩 단무지 17:00 ∼ 19:00
- 중식(면) - 4500원 꼬치어묵메밀국수 단무지
-석식 - 5000원",https://www.kau.ac.kr/web/pages/gc13087b.do,meal menu
-39.0,"항공대 소개  “개척자적 정신을 배양하고, 지성인으로서의 교양과 첨단의 과학기술로 무장하여, 새로운 시대의 역사적 소임을 다할 수 있는 능력 있는 선도자를 배출”
-대학은 국가와 인류사회의 발전에 기여할 인재를 양성하는 고등교육기관이다. 우리 한국항공대학교는 ‘개척자적 정신을 배양하고, 지성인으로서의 교양과 첨단의 과학기술로 무장하여, 새로운 시대의 역사적 소임을 다할 수 있는 능력있는 선도자를 배출’  한다는 건학이념을 바탕으로, 1952년 개교된 이래 60여년간 항공우주분야의 전문인력을 양성해옴으로써 국내 최고의 항공우주과학분야 특성화 대학으로 상징해왔다.
+● 월요일(12.18)  중식(한식) - 6000원 소고기된장찌개 (소:호주산) 백미밥 완자조림 (닭,돼지:국산) 느타리버섯볶음 깻잎지 깍두기 11:00 ∼ 14:00
 
 
-“인격도야(마음과 몸매를 맑게), 진리탐구(학문과 창의를 넓게), 인화협동(화협과 단결을 굳게)”
-이러한 건학정신에 따라, 우리대학은 “인격도야(마음과 몸매를 맑게), 진리탐구(학문과 창의를 넓게), 인화협동(화협과 단결을 굳게)”라는 교육이념(교훈)을 제정하여, 인재교육을 위한 규범으로 삼고 있으며, 국가와 인류사회의 발전에 기여할 인재를 양성하는  고등교육기관으로서 학칙 제 1조에 “항공우주과학을 중심으로 국가사회와 인류발전에 필요한 학문분야에 관한 이론과 응용방법을 교수 및 연구하고 아울러 지도자로서의 인격과 실력을 갖춘 유능한 인재를 양성＇이라는 교육목적을 설정하였고, 이를 반영하여 한국항공대학교의 독창적인 교육목표를 설정하였다.  본 대학은 조국이 걸어온 험난한 역사만큼이나 고난과 영광이 교차된 발전의 과정을 거쳐 오면서 국가가 필요로 하는 항공분야의 전문인력을 꾸준히 배출하여 사회의 각 분야에서 중추적 역할을 담당하도록 해왔다.  졸업생들이 오늘날 항공산업의 여러 관련분야에서 수행하는 역할은 지대하다고 말하지 않을 수 없다. 이들은 항대의 상징인 송골매의 옹골찬 정신을 간직하고 올곧은 사람으로 각자의 역할을 충실히 수행하며 국가발전의 역군으로 활약하고 있다.
-",https://kau.ac.kr/web/pages/gc3480h.do,"Introduction to Aviation University  
-
-""Cultivating a pioneering spirit, armed with intellectual culture and advanced science and technology, to produce capable leaders who can fulfill their historical duties of a new era.""
-Universities are higher education institutions that cultivate talents who will contribute to the development of the country and human society. Based on the founding philosophy of ""cultivating a pioneering spirit, armed with intellectual culture and advanced science and technology, to produce competent leaders who can fulfill their historical duties of a new era,"" Korea Aerospace University has been symbolizing the nation's best aerospace science specialization university by cultivating professionals in aerospace for more than 60 years since its opening in 1952.
 
 
-""Personality cultivation (clearing mind and body), truth exploration (broadening learning and creativity), and cooperation (firming harmony and unity).""
-In accordance with this founding spirit, our university established the educational ideology (teaching) of ""personality cultivation (clearing mind and body), truth exploration (broadening study and creativity), and cooperation (firming harmony and unity)"" as the norm for talent education. In Article 1 of the School Regulations, as a higher education institution that fosters talents who will contribute to the development of the country and human society, it set the educational purpose of ＇ to cultivate competent human resources with character and skills as leaders, reflecting this.  The university has consistently produced professionals in the aviation field needed by the state to play a pivotal role in each field of society as it has gone through a process of development that has been mixed with hardship and glory as the rough history of the country's journey.  It cannot but be said that the role that graduates play in various related fields of the aviation industry today is significant. They retain the spirit of the peregrine falcon, a symbol of the uprising, and are straight people, faithfully performing their respective roles, and are active as a force for national development."
+● 화요일(12.19)  중식(한식) - 6000원 국물떡볶이 김밥볶음밥 (햄[닭][돼지]:국산) 우동국물 찐순대 모듬튀김 포기김치 11:00 ∼ 14:00
+
+
+
+
+● 수요일(12.20)  중식(한식) - 6000원 고구마닭갈비 (닭:국내산) 백미밥 들깨미역국 계란찜 시금치나물 포기김치 11:00 ∼ 14:00
+
+
+
+
+● 목요일(12.21)  중식(한식) - 6000원 콩나물돈육불고기 (돼지:국내산) 백미밥 건새우아욱국 쥬키니애호박볶음 고춧잎무침 포기김치 11:00 ∼ 14:00
+
+
+
+
+● 금요일(12.22)  중식(한식) - 6000원 잔치국수 추가밥 임꺽정떡갈비&파채무침 (돼지,소,닭:국내산) 포기김치 후식팥죽 11:00 ∼ 14:00
+
+
+",https://www.kau.ac.kr/web/pages/gc13087b.do,meal menu
+39.0,"항공대 소개  건학정신
+개척자적 정신을 배양하고, 지성인으로서의 교양과 첨단의 과학기술로 무장하여, 새로운 시대의 역사적 소임을 다할 수 있는 능력있는 선도자를 배출
+
+교육이념(교훈)
+인격도야(人格陶冶) : 마음과 몸매를 맑게
+진리탐구(眞理探究) : 학문과 창의를 넓게
+인화협동(人和協同) : 화협과 단결을 굳게
+
+교육목적
+항공우주과학을 중심으로 국가사회와 인류발전에 필요한 다양한 학문분야에 관한 이론과 응용방법을 교수 및 연구지도자로서의 인격과 실력을 갖춘 유능한 인재양성
+
+교육목표
+항공우주과학을 중심으로 한 관련분야의 전문인 육성
+이론과 실무능력을 동시에 견비한 인재 양성
+사회 적응력이 뛰어난 균형 잡힌 지성인 양성
+
+핵심역량
+
+글로벌소통역량Smart Global collaborators
+공간과 시간, 언어의 장벽을 넘어 소통하고 협력할 수 있는 역량
+
+전문탐구역량Passionate Explorers
+전문분야에 대한 기본역량을 바탕으로 문제를 해결할 수 있는 역량
+
+통섭융합역량All-Round Experts
+인문학적 소양과 전문분야의지식을 융합하여 문제를 해결할 수 있는 역량
+
+창의도전역량Creative challengers
+창의와 도전 정신으로 새로운 미래를 개척할 수 있는 역량
+
+윤리인성역량Ethical Leaders
+도덕성을 바탕으로 화합과 봉사의 정신을 구현할 수 있는 역량
+
+본 대학은 조국이 걸어온 험난한 역사만큼이나 고난과 영광이 교차된 발전의 과정을 거쳐 오면서 국가가 필요로 하는 항공분야의 전문인력을 꾸준히 배출하여 사회의 각 분야에서 중추적 역할을 담당하도록 해왔다.  졸업생들이 오늘날 항공산업의 여러 관련분야에서 수행하는 역할은 지대하다고 말하지 않을 수 없다. 이들은 항대의 상징인 송골매의 옹골찬 정신을 간직하고 올곧은 사람으로 각자의 역할을 충실히 수행하며 국가발전의 역군으로 활약하고 있다.
+
+문의 : 기획홍보팀/정인교
+전화번호 : 02-300-0041
+E-mail : igjung@kau.ac.kr",https://kau.ac.kr/web/pages/gc3480h.do,"""Introduction to Aviation University""
+Cultivating pioneering spirit, cultivating intellectual culture and high-tech science and technology to produce capable leaders who can fulfill the historical duties of a new era
+
+Educational ideology (teaching)
+Personality 格陶冶: Clearing the mind and body
+The search for truth (眞 and 探究): Study and creativity are broadened
+Human 和協同: Strengthen harmony and unity
+
+Educational purposes
+Cultivating competent human resources with character and skills as a professor and research leader in theories and application methods necessary for the development of national society and humanity, focusing on aerospace science
+
+Educational objectives
+Fostering experts in related fields centered on aerospace science
+Cultivating talent that compares theory and practical skills at the same time
+cultivation of well-rounded intellectuals with excellent social adaptability
+
+Core competencies
+
+Global Communication Competency Smart Global Collaborators
+Ability to communicate and collaborate across space, time and language barriers
+
+Professional Exploration Competency Passionate Explorers
+Ability to solve problems based on basic competencies in the field of expertise
+
+Integrated Convergence Capabilities All-Round Experiences
+Ability to solve problems by converging humanities literacy with knowledge in specialized fields
+
+Creative Challengers for Creative Challengers
+Ability to pioneer new futures with creativity and challenging spirit
+
+Ethical Personality Competency Ethical Leaders
+The ability to embody the spirit of harmony and service based on morality
+
+As with the difficult history of the country's journey, the university has consistently produced professional manpower in the aviation field needed by the country and played a pivotal role in each field of society as it has gone through a process of development that has been mixed with hardship and glory. It cannot be said that the role that graduates play in various related fields of the aviation industry today is significant. They retain the spirit of the peregrine falcon, the symbol of the resistance, and are playing a role in national development by faithfully performing their roles as upright people.
+
+Inquiries: Planning and Public Relations Team / Jeong In-gyo
+Phone number: 02-300-0041
+E-mail : igjung@kau.ac.kr"""
+,"※ 외부인 본교 시설물 이용에 관한 문의 : 본교 사무처 총무팀  ☎ 02-300-0033
+
+시설사용 원칙
+예약가능 시설 및 신청방법
+
+1. 시설사용 신청 대상 및 사용목적
+
+본교 재학생 / 학생활동 및 행사, 소모임, 동아리 활동
+
+2. 시설사용원칙
+
+축구장 및 풋살장은 전체학생들이 이용할 수 있도록 팀별(소모임) 주1회 사용을 원칙으로 하며, 1일 2시간 초과하여 사용 시 적발되면 1개월간 사용을 정지합니다.  축구장 및 풋살장은 토요일, 일요일에 외부기관 대여로 예약이 진행되며 '예약가능 시설 및 신청방법'을 참조하여 신청하시기 바랍니다.
+다음 학기 시간표 및 계절학기 시간표 배정 관계로 방학 중 홈페이지 신청은 불가하며, 방학 중에 시설사용이 필요한 학생, 부득이 상기 사용 원칙 이외의 사항으로 시설물을 사용해야 할 경우는 학생지원팀에 방문하여 신청하시기 바랍니다.
+동일 장소에 1일 1회에 한하여 예약 가능, 1회 사용시간은 2시간을 초과할 수 없습니다. 동일 장소를 1일 이상 연속 예약은 불가하며 부득이한 사정이 있을 경우 학생지원팀에 방문하여 신청하여야 합니다.
+사용 예약은 2주 이내 신청 할 수 있으며 당일 예약은 불가합니다.(단 학부(과), 중앙동아리 공식행사의 경우 2주 이전에도 학생지원팀에서 검토 후 예약가능합니다.)
+예약 장소에서 일정이 취소될 경우 다른 학생들을 위해서 반드시 취소하여 주시기 바랍니다.
+예약이 완료되었어도 교내 행사 발생 시 시설사용이 제한 될 수 있습니다.
+동아리 행사는 시설물 사용과 별도로 행사집회허가원(별첨양식(3) 양식 바로 다운로드)을 작성하여 지도교수 확인 후 학생지원팀에 제출하여야 합니다.
+음향장비(프로젝트, 마이크 등) 사용 시 장비대여신청서(별첨양식(4)클릭 양식 바로 다운로드)를 작성하여 기계관 1층 실험실습 교육지원실(공과대학)으로 제출하여 주시기 바랍니다.
+
+3. 기타사항
+
+위 2항 사용원칙을 지켜주시고 시설물 사용에 있어서 항대인으로 주인의식을 갖고 깨끗하게 사용하여 주시기 바랍니다.
+사용목적과 실제 내용이 상이할 경우 승인을 취소할 수 있으며 이용 기간 및 일일 이용시간을 준수해 주시기 바랍니다.
+신청내용을 이행하지 아니하거나 학교 측의 정당한 주문사항을 거부할 경우에는 사용 중에라도 그 승인을 취소 할 수 있습니다.
+각종 안전사고에 대한 모든 책임은 사용자가 집니다.
+시설물의 청결이 그대로 유지될 수 있도록 하고 이용 종료 후 시설, 청결 등에 관한 이상 유무를 확인하고 이상이 있을 경우 학생지원팀에 반드시 신고를 하여야 합니다.
+
+1. 예약 가능 시설현황
+예약 가능 시설 : 과학관 - 매학기 5~7개 예약가능 강의실 오픈
+이용시간 : 09:00 ~ 23:00
+
+예약 가능 시설 : 운동장, 풋살 경기장
+이용시간 : 09:00 ~ 21:00
+참고사항 : 외부기관 대여(아래 요일의 시간에는 예약 불가) - 매주 토요일 10:00 ~ 24:00 / 일요일 09:00 ~ 24:00
+
+예약 가능 시설 : 농구장(테니스장 쪽)
+이용시간 : 09:00 ~ 21:00
+
+예약 가능 시설 : 항공우주센터 2층 국제회의장
+이용시간 : 09:00 ~ 22:00
+참고사항 : 총회나 공연 등 규모가 큰 행사 시만 대여가능하며, 학생지원팀에 방문신청
+
+예약 가능 시설 : 공학관 1층 대강당
+참고사항 : 참석인원 규모가 200명 이상일 경우만 대여가능하며, 학생지원팀에 방문신청
+
+2. 신청방법
+
+인터넷 신청 바로가기 클릭 ☞
+바로가기
+
+예약일자에 시설물 이용 시 예약내용 출력하여 확인증으로 사용하시기 바랍니다.
+
+3. 문의처
+
+본교 재학생 시설사용 : 학생회관 2층 학생지원팀 ☎ 02-300-0023
+외부인 시설사용 : 본관 2층 총무팀 ☎ 02-300-0033
+야간조명 시설사용 : 대강당 앞 신관경비실 ☎ 02-300-0473
+
+문의 : 학생지원팀/학생회관 206호
+전화번호02-300-0023
+E-mailijy337@kau.ac.kr",https://kau.ac.kr/web/pages/gc25111h.do,"Inquiries about the use of facilities of our school by outsiders: General Affairs Team of our office ☎ 02-300-0033
+
+Principles of facility use
+Reservation available facilities and application methods
+
+1. Subject to application for use of facilities and purpose of use
+
+Student / Student activities, events, small business, club activities
+
+2. Principles of facility use
+
+In principle, soccer fields and futsal fields should be used once a week by team (small gatherings) so that all students can use them, and if they are caught using them for more than two hours a day, the use will be suspended for one month. Soccer fields and futsal fields will be booked on Saturdays and Sundays by renting external institutions, and please refer to the ""Reservationable Facilities and Application Method.""
+It is not possible to apply for the website during the vacation due to the allocation of the schedule for the next semester and the seasonal semester, and if students who need to use facilities during vacation or if they have to use facilities for matters other than the above principles, please visit the student support team to apply.
+Reservations can be made only once a day in the same place, and the time of use cannot exceed two hours. Reservations for the same place cannot be made for more than one consecutive day, and if there is an unavoidable circumstance, the student support team must visit and apply.
+Reservations for use can be made within two weeks, and reservations cannot be made on the same day. (However, in the case of undergraduate (department) and central club official events, reservations can be made after review by the student support team even before two weeks.)
+If the schedule is canceled at the reservation place, please cancel it for other students.
+Even if the reservation is completed, the use of the facility may be restricted in case of an on-campus event.
+Club events must be submitted to the student support team after confirming the supervisor by filling out an event assembly permit (attached form (3) immediately downloading) separately from the use of facilities.
+When using acoustic equipment (project, microphone, etc.), please fill out the equipment rental application (attached form (4) click form immediately download) and submit it to the laboratory training support room (technical college) on the 1st floor of the machine hall.
+
+3. Other matters
+
+Please observe the principle of use in paragraph 2 above and use it cleanly with a sense of ownership in using facilities.
+If the purpose of use and the actual contents are different, the approval may be canceled, and please comply with the usage period and daily usage time.
+If the application is not fulfilled or the school rejects the legitimate order, the approval may be revoked even during use.
+The user is responsible for all safety accidents.
+Make sure that the cleanliness of the facilities is maintained, and after the end of use, check whether there is any abnormality in facilities, cleanliness, etc., and if there is any abnormality, make sure to report it to the student support team.
+
+
+1. Status of available facilities
+Reservation facilities: Science Museum - Open 5-7 reservation rooms every semester
+Usage hours: 09:00 to 23:00
+
+Reservation facilities: Playground, futsal stadium
+Usage hours: 09:00 to 21:00
+Note: Renting an external institution (booking cannot be made on the following day of the week) - 10:00-24:00 every Saturday / 09:00-24:00 every Sunday
+
+Reservation facilities: Basketball court (tennis court side)
+Usage hours: 09:00 to 21:00
+
+Reservation facility: International conference hall on 2F of Aerospace Center
+Usage hours: 09:00 to 22:00
+Note: Only large-scale events such as general meetings or performances can be rented, and you can apply for a visit to the student support team
+
+Reservation facility: Auditorium on the 1st floor of the Engineering Hall
+Note: Only those who attend more than 200 people can rent it, and apply for a visit to the student support team
+
+2. Application method
+
+Click the Internet application shortcut ☞
+Shortcuts
+
+When using the facility on the reservation date, please print out the reservation details and use it as a confirmation certificate.
+
+3. Contact Us
+
+Use of student facilities at this school: Student support team on the 2nd floor of the student center ☎ 02-300-0023
+Use of facilities for outsiders: General Affairs Team 2nd floor of the main building ☎ 02-300-0033
+Night lighting facilities: New building security office in front of the auditorium ☎ 02-300-0473
+
+Inquiries: Student support team/student center room 206
+Phone number 02-300-0023
+e-mailijy337@kau.ac.kr"
+,"의료지원실 소개
+1. 인사말
+
+의료지원실은 학생 및 교직원 여러분의 건강유지 및 증진을 위하여 의료서비스 제공, 건강 상담, 구급약품 지원, 보건교육 등에 최선을 다하고 있습니다. 재학생 및 교직원 여러분 누구나 자유롭게 의료지원실에 방문하여 응급 처치, 건강 상담, 일차 투약 등의 의료서비스를 제공받으실 수 받을 수 있습니다. 양질의 의료서비스가 제공될 수 있도록 항상 노력하겠습니다.
+
+2. 이용안내
+
+위 치 : 학생회관 2층 224호
+연락처 : 02-300-0024(내선 024)
+운영일시 : 월~금/09:00~18:00(점심시간 12:00~13:00)
+
+3. 시설소개
+
+4. 의료지원
+
+응급처치 및 일반의약품 투약
+
+교내에서 발생한 외상치료와 감기, 소화불량 등 단순증상에 대한 투약(전문의약품 제외)
+응급상황 발생 시 응급처치
+
+건강 상담 및 교육 : 질병의 조기 발견 및 건강에 대한 올바른 지식 제공
+
+건강증진 프로그램
+
+금연클리닉(타기관 연계), 일산화탄소 검사, 금연 보조제 제공과 금연 상담(매학기 진행)
+
+학교행사 의료지원 : 신입생 새로배움터, 축제 등 학교의 공식적인 행사 시 의료지원
+
+5. 건강검사
+
+자동 혈압계, 신장체중계, 혈당계, 시력표를 이용한 검사로 질병의 예방
+
+6. 안정실 이용
+
+이용시설 : 침대 3개
+이용시간 : 09:00 ~ 18:00
+
+7. 구급함 대여
+
+각종 공식행사(동아리 활동, 농활, 체육대회, 교직원 연수 등)시 구급약품의 지원을 통해 진료 기회를 확대함
+대여방법: 의료지원실 방문 신청
+
+행사 특성, 인원에 따라 의약품의 양이 달라질 수 있음
+
+문의 : 의료지원실/학생회관 224호
+전화번호02-300-0024
+E-mailejp0918@kau.ac.kr",https://kau.ac.kr/web/pages/gc62234h.do,"Introduction to the Medical Support Office
+1. Greetings
+
+The medical support office is doing its best to provide medical services, health counseling, first aid medicine support, and health education to maintain and promote the health of students and faculty members. Any current student and faculty member can freely visit the medical support office and receive medical services such as first aid, health counseling, and first-line medication. We will always strive to provide high-quality medical services.
+
+2. Use guide
+
+Location: 224th floor, 2nd floor of the student center
+Contact: 02-300-0024 (ext. 024)
+Business date: Monday–Friday, 09:00-18:00 (Lunch time from 12:00 to 13:00)
+
+3. Introduction of facilities
+
+4. Medical support
+
+First aid and over-the-counter medication
+
+Trauma treatment on campus and medication for simple symptoms such as cold and indigestion (excluding prescription drugs)
+First aid in case of emergency
+
+Health counseling and education: early detection of disease and providing the correct knowledge of health
+
+a health promotion program
+
+Non-smoking clinics (linked to other institutions), carbon monoxide tests, anti-smoking assistance, and anti-smoking counseling (conducted every semester)
+
+Medical support for school events: Medical support for official school events, such as new learning centers and festivals for freshmen
+
+5. a medical examination
+
+Prevent disease by using automatic blood pressure gauges, height scales, blood glucose gauges, and vision tables
+
+6. Use of a stable room
+
+Facilities: 3 beds
+Usage hours: 09:00 to 18:00
+
+7. first aid kit rental
+
+Expansion of medical treatment opportunities through the support of emergency medicines at various official events (club activities, agricultural activities, sports competitions, faculty training, etc.)
+How to rent: Apply for a visit to the medical support office
+
+The amount of medicine may vary depending on the characteristics of the event and the number of people
+
+Inquiries: Medical support room/student center room 224
+Phone number 02-300-0024
+e-mailejp0918@kau.ac.kr"
+,"예비군대대 위치 및 연락처
+
+1) 위치 : 학생회관 2층(226호)
+2) 대대장 : 조인제(02-300-0270)
+3) 참모 : 김형락(02-300-0267)
+
+예비군대대 운영방침
+
+1) 자원관리부대 교육훈련 주기와 대학 학사일정 조율을 통하여 예비군 훈련에 전념할 수 있는 여건마련
+2) 대학내 예비군 행정서비스 구축으로 예비군 훈련 관련 신속 / 정확한 정보 확인 및 개인별 불이익 발생 사전 예방
+3) 예비군훈련 3대 불편사항(교통, 급식, 편의시설 이용) 해소를 위하여 매년 학생예비군 육성지원 체계 확립4) 예비군 훈련간 안전사고 예방을 위하여 현장 확인감독 및 조치사항에 대한 시스템 구축 등 예비군 교육훈련의 내실화 추구
+
+예비군 조직대상
+
+1) 신분별 예비군 편성기간
+단기하사(만 40세), 중사(만 45세), 상사(만 53세)
+소위~대위(만 43세), 소령(만 45세), 중령(만 53세)
+
+2) 예비역 / 보충역의 병사 : 전역 후 8년차까지 편성(전역일 기준 익년도 1월 1일부 예비역 1년차)
+
+예비군대원 신고기간 및 방법
+
+1) 대학 종합정보시스템 이용 신고기간 : 매학기 수업일수 4주선까지(1월초~3월말, 7월초~9월말) / 이후 예비군대대 방문신고2) 종합정보시스템 이용 신고방법 : 접속 / 로그인 → 학사시스템 → 개인정보 → 예비군 편성신고 → (우측하단) 등록하기 클릭3) 신고(편성) 제외대상 : 수업연한 초과자, 졸업유예자, 졸업(수료)생, 휴학생, 유급생, 전문(특수)과정, 연구과정, 관리과정 4) 예비군대원 신고 이후 개인 E-mail, 휴대전화 변경시 수정 안내(필수)           	예비군 홈페이지(https://yebigun1.mil.kr) 접속 / 로그인 → 나의정보 → 개인정보 수정에서 변경예비군 홈페이지 접속제한 시 대학 예비군대대 사무실 전화 또는 방문 / 수정요청
+
+예비군 교육훈련
+
+1) 신분 / 연차별 교육          	
+교수 / 학생(대학원) 1~6년차 8시간
+직원 1~4년차 32시간, 직원 5~6년차 20시간
+※ 전역 당해년도, 7~8년차 예비군대원 훈련 미부과(단, 전년도 이월훈련 대상자는 제외)
+2) 훈련시기 및 훈련시간     	
+훈련시기 : 학기중 3회(1차, 2차, 3차) / 1학기 재학생(1학기내 3차까지 실시), 2학기 신규 예비군(2학기내 3차까지 실시)
+훈련시간 : 09:00~18:00(입소시간 09:00 이후 1분이라도 지연도착시 입소 불가)
+※ 훈련복장 : 전투복, 전투화, 전투모(베레모) 착용 준수 / 복장 미준수시 입소불가
+3) 훈련통보      	
+1차훈련 : 홍보(대학 홈페이지 일반공지 게재, 학부 사무실 안내, 개별 문자메세지 발송 등 입체적인 홍보)
+2차, 3차훈련 : 개인별 소집통지서 발급(장소 : 예비군대대 사무실)
+※ 3차훈련 무단불참시 고발조치
+
+훈련일정 자율선택, 휴일 / 전국단위 예비군훈련 신청방법
+
+1) 예비군 홈페이지 접속/로그인 → 훈련일정 자율선택, 휴일/전국단위훈련 메뉴 선택 → 훈련신청 → 통지서 출력 → 훈련참석            
+2) 훈련 희망일자 및 훈련장소는 본인이 직접 선택(예비군 홈페이지에서 개별 확인)
+
+교육장소          
+1) 일산 예비군훈련장 : 경기도 고양시 일산서구 고양대로 429          
+2) 송포 예비군훈련장 : 경기도 고양시 일산서구 덕이로 104-36
+유의사항
+
+1) 학생 신분이 상실된 경우(휴학, 자퇴 등) 지역 예비군중대로 전출 / 추후 복학 등 재등록시 종합정보시스템 이용 신고 필수2) 수업연한 초과자, 졸업유예자는 재학중이라도 지역 예비군중대로 전출 / 지역 예비군중대에서 부여된 훈련 이수 3) 당해 지역 예비군중대에서 부과된 2차훈련을 무단불참하고 학생 예비군으로 편성되었을 경우 해당훈련을 부과함    ex) 지역 예비군중대 동미참(32시간) 2차훈련을 무단불참한 후 학생 예비군으로 편성시 동미참(32시간) 3차훈련이 부과됨
+
+문의 : 예비군대대/조인제
+전화번호02-300-0270
+E-mailijcho@kau.ac.kr",https://kau.ac.kr/web/pages/gc37548h.do,"Reserve Battalion Location and Contact
+
+1) Location: Student Center 2nd floor (Room 226)
+2) Battalion Chief: Jo In-je (02-300-0270)
+3) Staff: Kim Hyung-rak (02-300-0267)
+
+the operational policy of the Reserve Battalion
+
+1) Establishment of conditions to concentrate on the training of the reserve forces by adjusting the training cycle of the resource management unit and the academic schedule of the university
+2) Establishment of administrative services for reserve forces in universities to quickly/accurate information related to reserve forces training and prevent individual disadvantages in advance
+3) Establishment of a support system for fostering students' reserve forces every year to resolve the three major inconveniences (use of transportation, meals, and convenience facilities) Pursue the substantial improvement of education and training for reserve forces, such as supervising on-site inspection and establishing a system for measures, to prevent safety accidents during training for reserve forces
+
+Reserve organization target
+
+1) Period of Reserve Army Organization by Status
+Short-term sergeant (40 years old), sergeant (45 years old), and boss (53 years old)
+Lieutenant-Captain (43), Major (45), Lieutenant-Colonel (53)
+
+2) Soldiers in reserve/supplementary service: Organized until the 8th year after discharge (first year of reserve service on January 1 of the following year based on the date of discharge)
+
+Period and method for reporting reserve soldiers
+
+1) Period of reporting the use of the comprehensive university information system: Up to four weeks of each semester's class days (early January to the end of March, early July to the end of September) / After that, report on the visit to the reserve forces 2) How to report the use of the comprehensive information system: access / login → academic system → personal information → report on the arrangement of reserve forces → (click on the bottom right) → (registration of reserve forces) Exclusion of report (organization) Subject to exclusion: Those who have exceeded the duration of study, those who have been suspended from graduation, those who have graduated (college graduate), those who have been on leave (completion), students on leave, paid students, professional (special) course, research course, management course 4) After reporting reserve forces, personal e-mail, mobile phone modification guide (required) access to the reserve forces website (https://yebigun1.mil.kr ) / login → My information → Change in the homepage of the reserve forces When the access to the reserve forces is restricted, visit or request for revision by phone to the office of the university reserve forces battalion
+
+Reservists' training and training
+
+1) status/yearly education          	
+Professor / Student (graduate school) 8 hours in year 1 to 6
+32 hours for employees in 1st to 4th year and 20 hours for employees in 5th to 6th year
+※ Non-imposition of training for reserve soldiers in the relevant year and year 7-8 of the discharge (excluding those subject to the previous year's carryover training)
+2) Training time and training time     	
+Training period: 3 times during the semester (1st, 2nd, 3rd) / 1st semester students (open until 3rd within 1st semester), 2nd semester new reserve groups (open until 3rd within 2nd semester)
+Training time: 09:00 to 18:00 (Admission cannot be made if arriving delayed even by 1 minute after 09:00 admission time)
+※ Training suit: Compliance with wearing combat suit, combat boots, and beret (beremo) / Do not enter if you do not comply with clothes
+3) Training notification      	
+1st training: Public relations (three-dimensional publicity such as publication of general notices on the university website, guidance of undergraduate offices, and sending individual text messages)
+2nd and 3rd Training: Issuance of individual call-up notices (Place: Reserve Battalion Office)
+※ 3rd Training Unauthorized Non-attendance Complaint Measures
+
+How to apply for training schedule autonomous selection, holiday/national reserve army training
+
+1) Accessing/login to the reservist website → Self-selecting training schedule, selecting holiday/national training menu → Application for training → Output notice → Attendance of training            
+2) Select the desired date and place of training by yourself (check individually on the reservist website)
+
+Place of education          
+1) Ilsan Reserve Training Center: 429 Goyang-daero, Ilsan Seo-gu, Goyang-si, Gyeonggi-do          
+2) Songpo Reserve Training Center: 104-36, Deoki-ro, Ilsan Seo-gu, Goyang-si, Gyeonggi-do
+Notes to be noted
+
+1) In the event of student status loss (leave of school, drop out, etc.) Transfer to a local reserve army company / report on the use of the comprehensive information system when re-registration such as return to school 2) Transfer to a local reserve army company even if they are enrolled, and those who are suspended from graduation are transferred to a local reserve army company / Complete training granted by a local reserve army company 3) If the second training imposed by the local reserve army company is not allowed to attend without permission and is organized as a student reserve, the relevant training will be imposed ex) The third training will be imposed when the second training is organized as a student reserve after the second training of the local reserve army company (32 hours) is absent without permission
+
+Inquiry: Reserve Battalion/Jointments
+Phone number 02-300-0270
+e-mailijcho@kau.ac.kr"
+,"학군단(ROTC)제도
+
+학군단 바로가기
+
+1. 창설
+
+대통령령으로 제정된 학생군사교육 실시령(1971. 6. 26) 에 따라 국가 방위의 주역인 초급장교 양성을 목표로 창설
+
+2. 학군제도
+
+2학년 재학생 중 우수한 인재를 선발하여 3,4학년 동안 대학생활과 더불어 소정의 군사교육을 통하여 장교로 임관시키는 제도
+
+3. 복무기간
+
+조종자원은 임관 후 전원이 장기자원으로서 복무기간이 10년이 됩니다.일반자원은 복무기간이 3년이며, 학군장학금을 받게되면 수혜 기간만큼 복무기간이 연장됩니다.
+
+지원자격 및 구비서류
+1. 지원자격
+
+① 연령 : 임관일 기준 만20세~27세까지의 남자
+② 지원가능 대학 : 항공대학교, 한서대학교(항공학부)
+③ 학력 : 2학년 재학생 중 3학년 진학 및 졸업학점 취득이 가능하다고 대학에서 추천된 자
+④ 군인사법 제10조(임용결격사유)에 저촉되지 아니한 자
+⑤ 장기복무 지원(운항과 학생에 한함)
+
+2. 구비서류
+1차전형 대상자 제출서류
+
+① 지원서(공군 소정서식) 1부
+② 성적증명서(1학년 전체학기 성적) 2부
+③ 사진(3×4cm) 3매
+④ 호적등본 및 주민등록등본 각 2부
+⑤ 장기복무 지원서 1부 (운항과 재학생에 한함)
+⑥ 성적증명서(2학년 1학기) 2부
+⑦ 신원진술서(공군 소정서식) 2부
+
+문의 : 학군단 행정실
+전화번호02-300-0233",https://kau.ac.kr/web/pages/gc37548h.do,"School District (ROTC) system
+
+School District Shortcuts
+
+1. the creation of
+
+In accordance with the Enforcement Decree of the Student Military Education (June 26, 1971) enacted by the Presidential Decree, it was established with the aim of cultivating beginner officers who are the main players in national defense
+
+2. school district system
+
+A system in which excellent talents are selected among second-grade students and commissioned as officers through prescribed military education along with college life during the third and fourth grades
+
+3. the length of one's service
+
+Piloting resources are long-term resources after being commissioned, and the service period is 10 years. General resources have a three-year service period, and if you receive a school district scholarship, the service period will be extended for as long as the beneficiary period.
+
+Eligibility and required documents
+1. Eligibility to apply
+
+① Age: Men aged 20 to 27 as of the date of appointment
+② Applicable universities: Aviation University, Hanseo University (Department of Aviation)
+③ Academic background: A person recommended by the university to enter the third grade and obtain graduation credits among 2nd grade students
+④ A person who does not violate Article 10 of the Military Personnel Act (Reasons for disqualification from appointment)
+⑤ Long-term service support (only for students in the Department of Operation)
+
+2. required documents
+Submission documents for those eligible for the first round of screening
+
+① a copy of the application (a prescribed form for the Air Force)
+② Report Certificate (Grades for the entire semester of the first year) Part 2
+③ 3 photos (3×4 cm)
+④ Two copies each of the family register and resident registration
+⑤ One copy of the long-term service application (only for current students in the Department of Operation)
+⑥ Report card (first semester of 2nd grade) Part 2
+⑦ Part 2 of the identification statement (Air Force prescribed form)
+
+Contact: School District Administration Office
+Phone number 02-300-0233"
+,"시험과 성적
+제13조 (시험의 구분) 본 대학교에서 실시하는 시험은 정기시험과 수시시험으로 구분한
+다.
+1. 정기시험은 매 학기 말에 시행한다.
+2. 수시시험은 교과목 담당 교수가 필요하다고 인정할 때 수시로 시행할 수 있다.
+제14조 (자격상실) 학점 취득 자격이 상실되는 성적은 다음 각호에 해당하며, 학적부에 F로 기재한다.
+1. 학칙 제30조 제2항에 의거 총 수업시간 수의 1/4 이상 결석한 과목의 성적
+2. 시험 중 부정행위로 취득한 과목의 성적
+3. 기타 관련법에 의거 부정한 청탁 등의 행위로 취득한 성적
+제14조의2 (유고 결석) 제1항, 유고 결석을 하는 학생은 사유 발생 전이나 발생 즉시 또는 급박한 사정이 있는 경우에는 결석 후 1주일 이내에 증빙서류를 첨부하여 결석계를 학부(과)에 제출하고 승인을 받아야 한다. 제2항, 유고 결석은 다음 각호의 사유와 기간에 국한하여 인정한다.
+1. 직계존속 또는 형제자매의 사망 - 일주일 이내
+2. 입원 치료 또는 등교가 불가능한 질병의 치료 – 동일 학기 내 질병 치료로 인한 유고 결석 인정일을 합산하여 최대 3주 이내
+3. 병역법에 의한 병역판정검사 및 예비 군법에 의한 소집 – 해당일 
+4. 여학생의 생리결석 – 별도의 증빙서류 제출 없이 한 학기당 최대 5일 이내, 1회당 2일 이내로 신청할 수 있으며 1회 신청 후 다음 생리 결석은 2주가 지난 후 신청할 수 있음. 단, 학칙 시행세칙 제13조에 따른 시험 기간 중에는 유고 결석을 인정하지 않을 수 있음.
+5. 기타 총장이 허가한 경우
+제3항, 유고 결석은 학칙 제30조 제2항의 결석일 수에 포함하지 아니한다. 제4항, 장기 결석으로 학칙에 규정된 출석 일수를 확보하지 못할 경우 즉시 휴학 절차를 밟아야 한다.
+제15조 (성적평가) 제1항, 성적평가는 정기, 수시시험 등 시험성적과 출석, 과제 등 평소 성적
+을 종합평가 하며, 전 과목에 대해 상대평가 유형Ⅰ적용을 원칙으로 한다. 그러나 기타 과목의 특성으로 총장이 승인한 과목은 상대평가 유형Ⅱ 또는 절대평가를 할 수 있다. 상대평가 비율은 다음 각호의 1과 같다. 
+1. 상대평가 유형Ⅰ: A+, A0(30% 이내), A+, A0, B+, B0(70% 이내)
+2. 상대평가 유형Ⅱ: A+, A0(40% 이내) 
+제2항, 매 학기 수업 종료일 기준 4주 이내에 질병(입원가료 또는 이에 상응하는 의사 소견서를 제출한 자) 또는 입대로 학기말 시험에 응시하지 못하는 자에 대해서는 해당 교과목 담당 교수가 그 학기 중에 평가한 성적을 학기 말 시험성적으로 대 체할 수 있다. 제3항, 전 항의 성적을 인정받고자 하는 자는 소정의 학기말시험 대체 원을 지도교수 및 학부(과)장을 경유, 교무처에 제출하여 총장의 승인을 받아야 한다. 제4항, 조종 실기 교육의 평가는 비행교육원의 평가 기준에 의하며 학점 인정은 항공 운항학과장이 확인하여 교무처에 제출한다. 제5항, 대학원 과정생, 국내외 교환학생 등 총장이 필요하다고 인정한 경우에는 상대 평가 대상에서 제외할 수 있다. 제6항, 본 조항에 정하여 있지 않은 세부 사항은 성적관리에 관한 내규로 정한다.
+제16조 (수수료) 추가시험 및 재시험 응시자에게는 소정의 수수료를 따로 정할 수 있다.
+제17조 (성적정정) 일단 제출된 성적은 정정할 수 없으며, 정당한 사유로 인한 정정은 담당 교수가 소정의 정정원에 사유를 기재하고 성적정정에 대한 근거 서류(답안지 등)를 첨부하여 교무처에 제출하고 총장의 승인을 받아야 한다.
+제18조 (성적공시 등) 성적은 매 학기 말 학생 및 소속 학부(과)장, 학부모에게 공시 및
+통보한다.
+제19조 (성적산출) 성적의 산출(평점 평균)은 다음과 같이 한다. 단, 합격(Pass) 또는 불합격(No Pass), 과목 재수(Retake)로 지정된 과목은 평점 평균 계산에 산입하지 않는다.
+2014학년도 2학기 이후 성적:
+=∑(과목별 학점 수 × 과목별 성적 평점)/총 수강신청 학점 수(P, NP, R 학점 제외)
+2014학년도 1학기 이전 성적:
+= ∑(과목별 학점 수 × 과목별 성적 평점)/총 취득학점 수(P 학점 제외)",https://www.kau.ac.kr/doc/aboutkau/rules/2-1-02.pdf,"""Examination and grades.""
+Article 13 (Separation of Tests) Tests conducted at this university are divided into regular and occasional tests
+All.
+1. Regular exams are conducted at the end of each semester.
+2. Occasional examinations may be conducted from time to time when the professor in charge of the subject deems it necessary.
+Article 14 (Loss of Qualification) Grades in which qualifications for credit are lost fall under the following subparagraphs and are listed as F in the academic register.
+1. Grades of subjects absent for at least 1/4 of the total number of class hours pursuant to Article 30 (2) of the School Rules
+2. the grades of the subjects obtained through cheating during the exam
+3. Grades acquired through fraudulent solicitation, etc. under other relevant laws
+Article 14-2 (Unattended Absence) (1) A student who is absent from death shall submit an absentee system to the undergraduate department (subject) and obtain approval within one week after the absence, along with evidentiary documents, if there is an urgent situation, before or immediately after the occurrence of the cause. Paragraph 2 recognizes the absence of death from death only for the following reasons and periods.
+1. Death of lineal ascendant or sibling - within a week
+2. Treatment of inpatient treatment or non-schoolable diseases – within a maximum of 3 weeks by adding up the date of recognition of absence due to the treatment of the disease within the same semester
+3. Military service judgment inspection under the Military Service Act and convocation under the Reserve Military Act – the relevant date 
+4. Female students' menstrual absence – Applications can be made within a maximum of 5 days per semester and within 2 days per semester without submission of separate evidence, and the next menstrual absence after two weeks after one application. However, absence from death may not be recognized during the examination period pursuant to Article 13 of the Enforcement Regulations of the School Regulations.
+5. If other permission is granted by the President
+Paragraph 3 does not include the number of absentee days under Article 30 (2) of the School Regulations. Paragraph 4, if the number of attendance days specified in the school regulations cannot be secured due to long-term absence, a leave of absence must be immediately taken.
+Article 15 (Grade Evaluation) Paragraph 1, for grade evaluation, test results such as regular and occasional tests, attendance, and usual grades such as assignments
+In principle, it is evaluated comprehensively, and relative evaluation type I is applied to all subjects. However, subjects approved by the president due to the characteristics of other subjects may be evaluated by relative evaluation type II or absolute evaluation. The relative evaluation ratio is as follows. 
+1. Relative Evaluation Type I: A+, A0 (within 30%), A+, A0, B+, B0 (within 70%)
+2. Relative Evaluation Type II: A+, A0 (within 40%) 
+Paragraph 2, for those who are unable to take the semester-end test due to illness (a person who has submitted a fee or a doctor's note corresponding to admission fee) or enlistment within 4 weeks of the end date of each semester, the grades evaluated by the professor in charge of the subject during the semester may be replaced by the end-of-semester examination grades. A person who intends to be recognized for the grades in Paragraph 3 and the preceding paragraph shall submit a prescribed application for substitution for the end-of-semester examination to the Office of Education via the supervisor and the head of the undergraduate (department) and obtain approval from the president. Paragraph 4, the evaluation of pilot practical education is in accordance with the evaluation criteria of the Flight Education Institute, and credit recognition is confirmed by the head of the Aviation Operations Department and submitted to the Office of Education. Paragraph 5, graduate students, domestic and international exchange students, etc. may be excluded from the relative evaluation if the president deems it necessary. Details not provided for in Paragraph 6, this article, shall be prescribed by by-laws on grade management.
+Article 16 (Fee) A prescribed fee may be separately determined for candidates who take additional and retesting tests.
+Article 17 (Grade Correction) Once submitted, the grades cannot be corrected, and correction due to justifiable reasons must be made by the professor in charge, accompanied by evidence documents (answers, etc.) on the grade correction, and submitted to the school affairs office, and approved by the president.
+Article 18 (Grade Disclosure, etc.) The grades are disclosed to students, heads of departments, and parents at the end of each semester
+I will notify you.
+Article 19 (Grade Calculation) The calculation of grades (evaluation average) is as follows. However, subjects designated as Pass, No Pass, or Retake of subjects are not included in the average calculation of grades.
+Grades after the second semester of 2014:
+= ∑ (number of credits per subject × grade per subject) / Total number of credits registered (excluding P, NP, and R credits)
+Prior to the first semester of 2014:
+= ∑ (number of credits per subject × grade per subject) / Total number of credits (excluding P credits) """
+,"학생 상벌
+제43조 (포상의 대상) 제1항, 다음 각호의 1에 해당하는 학생에 대해서는 소정의 절차를 거쳐 포상할 수 있다: 매 학기 학업성적이 우수하고 품행이 단정한 자, 학교와 사회의 발전에 현저한 공적을 남긴 자, 선행 및 효행 등으로 타 학생의 모범이 되는 자, 뛰어난 재능을 발휘하여 학교의 명예를 높인 자, 학생 자치활동에 공로가 현저한 자
+제2항, 전 항의 포상 대상자 중 당해 학년도 징계처분을 받은 자는 포상 대상에서 제외한다. 제3항, 포상에 관한 사항은 총장이 따로 정한다.
+제45조 (포상의 발의) 제43조의 사유가 발생하였을 때는 학생처장 또는 학부(과)장은 다음의 서류를 갖추어 지도위원회에 상정하여 포상을 발의할 수 있다: 성적증명서 1부, 공적조서 1부, 지도교수 추천서 1부, 학부(과)장 의견서 1부
+제46조 (징계의 대상) 학생이 다음 각호의 1에 해당할 때는 소정의 절차를 거쳐 징계할 수 있다: 학생 신분에 벗어난 행위를 한 자, 수업을 방해하거나 지장을 초래케 한 자, 학교의 명예를 훼손시킨 자, 학교시설을 무단 점거 또는 비품을 고의로 파손시킨 자, 기타 학칙 및 제 규정을 위반한 자
+제47조 (징계의 발의) 제46조의 사유가 발생하였을 때는 학부(과)장 또는 학생처장은 다음의 서류를 갖추어 지도위원회에 상정하여 징계를 발의할 수 있다: 사건 경위서 1부, 본인의 진술서(경우에 따라서 생략할 수 있음) 1부, 지도교수 및 학부(과)장 의견서 1부
+제48조 (징계의 구분) 징계는 근신, 유기정학, 무기정학, 제적으로 구분하며, 근신은 2주 이내, 유기정학은 90일 이내로 함을 원칙으로 한다.
+제48조의1 (봉사 명령) 제1항, 징계가 결정된 학생에게 징계를 대체할 수 있는 사회봉사 명령을 부과할 수 있으며, 봉사명령을 이행할 경우 징계는 소멸한다. 제2항, 봉사 명령의 종류, 시간, 방법 등은 학생처장이 정하고 이행 여부를 감독한다.
+제49조 (근신/유기정학/무기정학) 다음 각호 1에 해당하는 자는 근신, 유기정학 또는 무기정학에 처할 수 있다: 학생품위를 손상한 자, 교직원에게 불손한 자, 학교 시설물을 훼손한 자, 폭행을 가한 자, 시험 중 부정행위를 행하였거나 이를 계획한 자
+제52조 (제 적) 다음 각호의 1에 해당하는 자는 제적에 처할 수 있다: 무기정학에 해당하는 행위를 재범한 자, 실형 선고를 받은 자, 징계 기간에 다시 학칙을 위반한 자, 교직원에게 폭행을 가한 자, 대학의 운영에 심각한 피해를 초래한 자
+제53조 (심의 절차) 포상자와 징계자에 대한 심의 절차는 다음과 같다.
+1. 포상 대상자
+가. 학생처장은 포상 대상자로서 제43조의 요건을 갖춘 학생이 추천되면 구비서류를 갖추어 지도위원회에 회부하여 심의받아야 한다.
+나. 학생처장은 심의 결과를 총장에게 보고하여 승인받아야 한다.
+2. 징계대상자
+가. 학생처장은 제46조의 징계 사유에 해당하는 학생이 확인되었을 때는 구비 서류를 갖추어 지도위원회에 회부하여 심의 받아야 한다.
+나. 학생처장 또는 지도위원회에서 필요하다고 판단한 경우에는 해당 학생의 입장을 보호하기 위하여 해당 학생 또는 지도교수의 출석을 요청하여 해명 또는 참고 발언을 청취할 수 있다.
+다. 학생처장은 심의 결과를 총장에게 보고하여 승인받아야 한다.
+제54조 (특별 지도 및 권리의 정지) 제1항, 제적 이외의 징계처분을 받았을 경우에는 징계 기간에 지도교수 및 학부(과)장의 계속된 특별 지도를 받아야 한다. 제2항, 근신 처분을 받았을 경우에는 수업 이외의 모든 학생활동에 참여가 금지된다. 제3항, 근신 이외의 처분을 받은 학생은 처벌받은 날로부터 해제 시까지 학생으로서의 모든 권리는 정지된다.
+제55조 (징계의 해제) 학생처장은 지도교수 및 학부(과)장으로부터 징계 중인 학생에 대한 특별 지도 결과 보고서와 징계 해제에 대한 의견서가 제출되면 지도위원회의 심의를 거쳐 총장의 승인을 받아 징계를 해제할 수 있다.
+제56조 (통보 및 등재) 제1항, 학생처장은 포상 및 징계 사실을 지도교수, 학부(과)장, 교무처
+장 및 학부모와 본인에게 지체 없이 통보하여야 한다. 제2항, 교무처장은 포상 및 무기정학 이상의 징계 사실을 학적부에 올린다.",https://www.kau.ac.kr/doc/aboutkau/rules/2-1-02.pdf,"""Student reward and punishment""
+Article 43 (1) (subject to reward) Any student falling under any of the following subparagraphs may be awarded through the prescribed procedures: A person who has excellent academic performance and good conduct every semester, a person who has made a remarkable contribution to the development of schools and society, a person who is an example of other students through good deeds, filial piety, etc., a person who has demonstrated outstanding talent to enhance the honor of the school, and a person who has made a remarkable contribution to the self-governing activities of students
+Those who have received disciplinary action for the relevant school year from among those subject to the rewards referred to in paragraph (2) and the preceding paragraph shall be excluded from the rewards. Matters concerning the rewards referred to in paragraph (3) shall be separately determined by the President.
+Article 45 (Proposal of Rewards) When the grounds referred to in Article 43 arise, the head of the student affairs department or the head of an undergraduate department may submit the following documents to the supervisory committee and propose a reward: One transcript of the transcript, one public record, one letter of recommendation for an advisor, and one copy of the opinion of the head of an undergraduate department (department)
+Article 46 (Subject to Disciplinary Action) If a student falls under any of the following, he/she may be disciplined through the prescribed procedures: A person who commits an act that deviates from his/her status as a student, a person who interferes with or interferes with classes, a person who has damaged the reputation of the school, a person who intentionally occupies school facilities or damaged equipment, or violates other school regulations and regulations
+Article 47 (Proposal of Disciplinary Action) When a reason under Article 46 occurs, the head of an undergraduate department or the head of a student department may propose disciplinary action by presenting the following documents to the supervisory committee: One part of the case report, one part of the person's statement (which may be omitted in some cases), and one part of the opinion of the head of the supervisor and the head of an undergraduate department (subject)
+Article 48 (Discrimination of Disciplinary Measures) Disciplinary action shall be classified into probationary, organic suspension, indefinite suspension, and expulsion, and in principle, probation shall be within two weeks and organic suspension within 90 days.
+Article 48-1 (Service Order) Paragraph 1, a social service order that can replace disciplinary action may be imposed on a student whose disciplinary action has been decided, and if the service order is fulfilled, the disciplinary action shall lapse. Paragraph 2, the type, time, method, etc. of service order shall be determined by the head of the student ministry and supervised on whether or not to implement it.
+Article 49 (Geunshin/Organic/Organic/Organic/Organic) Any person falling under any of the following subparagraphs may be punished by probation, organization, or indefinite suspension: A person who has damaged the status of a student, a person who is irreverent to a faculty member, a person who has damaged school facilities, an assault, a person who has cheated during an examination, or who plans to do so
+Article 52 (Exclusion) Any person falling under any of the following subparagraphs may be punished by expulsion: A person who has reoffended an act that falls under indefinite suspension, a person sentenced to prison, a person who violates school rules again during the period of disciplinary action, a person who has assaulted a faculty member, and a person who has caused serious damage to the operation of the university
+Article 53 (Deliberation Procedure) The deliberation procedure for the reward and disciplinary person is as follows.
+1. a person eligible for a reward
+A. If a student who meets the requirements of Article 43 is recommended as a person eligible for the reward, the head of the student affairs department shall prepare the necessary documents and refer them to the guidance committee for deliberation.
+B. The head of the student affairs office must report the results of the deliberation to the president and obtain approval.
+2. Person subject to disciplinary action
+A. When a student who falls under the grounds for disciplinary action under Article 46 is identified, the head of the student affairs department shall prepare necessary documents and refer them to the guidance committee for deliberation.
+B. If deemed necessary by the head of the student affairs department or the guidance committee, the student or guidance professor may request the attendance of the student or guidance professor to listen to the explanation or reference remarks.
+C. The head of the student affairs office must report the results of the deliberation to the president and obtain approval.
+Article 54 (Suspension of Special Guidance and Rights) In case of disciplinary action other than paragraph 1 and expulsion, he/she shall receive continuous special guidance from his/her supervisor and the head of the undergraduate department during the disciplinary period. Paragraph 2 prohibits participation in all student activities other than class in case of probation. In paragraph 3, all rights as a student are suspended from the date of punishment until cancellation.
+Article 55 (Release of Disciplinary Action) When a report on the results of special guidance and an opinion on the lifting of disciplinary action are submitted from the head of the supervisor and undergraduate department, the head of the student department may lift the disciplinary action after deliberation by the supervisory committee.
+Article 56 (Notification and registration) Paragraph 1 states that the head of the student department is an advisor, the head of an undergraduate department, and the office of a teacher
+The head of the school, parents, and the principal shall be notified without delay. In paragraph (2), the head of the school affairs department shall post a reward and disciplinary action above indefinite suspension in the school register."""
+,"계절 수업
+제57조 (계절수업) 제1항, 계절수업의 개설은 여름방학 및 겨울방학 기간에 설치할 수 있으며 수업 기간은 3주 이상으로 한다. 제2항, 계절수업의 개설 과목은 필수과목과 선수과목을 원칙으로 하며 필요에 따라 총장의 승인을 얻어 특별과목을 개설할 수 있다. 제3항, 학급당 인원은 10명 이상 60명 이내로 제한할 수 있다.
+제58조 (학점) 계절수업의 강의 시간은 1학점당 15시간으로 하며 취득 학점은 7학점 이내로 한다. 다만, 총장이 필요하다고 인정할 때는 예외로 할 수 있다.
+제59조 (수강 신청) 제1항, 소정 기일 내에 소정의 절차를 거쳐 수강 신청을 해야 한다. 제2항, 수강과목에 대해서는 소정의 수강료를 납부하여야 한다. 제3항, 계절수업은 휴학 중인 학생도 수강할 수 있다.",https://www.kau.ac.kr/doc/aboutkau/rules/2-1-02.pdf,"""Seasonal class""
+Article 57 (1) (Seasonal Classes) The opening of seasonal classes may be established during summer and winter vacation, and the period of class shall be at least 3 weeks. In principle, the subjects opened in seasonal classes are compulsory and prerequisite courses, and special courses may be opened with the approval of the president if necessary. Paragraph 3 may limit the number of students per class to 10 or more and not more than 60.
+Article 58 (Credit) The lecture time for seasonal classes shall be 15 hours per credit, and the earned credits shall not exceed 7 credits. However, exceptions may be made when the president deems it necessary.
+Article 59 (Application for Course) Paragraph 1, You must apply for the course through a prescribed procedure within the prescribed date. In Paragraph 2, a prescribed tuition fee shall be paid for the course. In Paragraph 3, seasonal classes may also be taken by students on leave of absence"

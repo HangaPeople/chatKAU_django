@@ -15,7 +15,7 @@ from .models import SchoolInfo
 @api_view(['POST'])
 def crawling_menu(request):
     
-    file_path = "./kau_data_eng_major.csv"
+    file_path = "./항공대정보최종.csv"
     df = pd.read_csv(file_path)
     
     options = Options()
